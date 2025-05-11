@@ -1,0 +1,33 @@
+body {
+  font-family: Arial;
+  background: #fafafa;
+}
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 5px;
+}
+input {
+  padding: 10px;
+  width: 70%;
+}
+button {
+  padding: 10px;
+}
+ul {
+  margin-top: 20px;
+  padding-left: 0;
+}
+li {
+  list-style: none;
+  padding: 10px;
+  background: #eee;
+  margin-top: 5px;
+  cursor: pointer;
+}
+li.done {
+  text-decoration: line-through;
+  color: gray;
+}
